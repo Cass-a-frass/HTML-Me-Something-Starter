@@ -1,1 +1,39 @@
-/* Write your CSS here! */
+.left {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+html {
+    font-family: Garamond, Georgia, serif;
+    background-image: radial-gradient(#b3e6ff 20%, transparent 60%),
+    radial-gradient(#ffdd99 20%, transparent 50%);
+    background-color:#e6e6e6, transparent 10%;
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+    height: 200px;
+    max-width: 100%
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 40px;
+    text-shadow: 1px 1px;
+}
+
+body {
+    margin: 8px;
+    display: block;
+}
+
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color:green;
+}
