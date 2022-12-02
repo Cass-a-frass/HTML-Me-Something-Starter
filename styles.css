@@ -1,14 +1,6 @@
-.left {
-    float: left;
-    padding: 0 20px 20px 0;
-}
-
-.center {
-    text-align: center;
-}
-
 html {
     font-family: Garamond, Georgia, serif;
+    font-weight: 400;
     background-image: radial-gradient(#b3e6ff 20%, transparent 60%),
     radial-gradient(#ffdd99 20%, transparent 50%);
     background-color:#e6e6e6, transparent 10%;
@@ -21,7 +13,7 @@ html {
 h1 {
     font-weight: bold;
     margin-bottom: 0px;
-    font-size: 40px;
+    font-size: 45px;
     text-shadow: 1px 1px;
 }
 
@@ -30,10 +22,48 @@ body {
     display: block;
 }
 
+article {
+    width: 95%;
+    border: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 40px;
+    color: red
+}
+
+img {
+    height: 400px;
+    text-align: center;
+}
+
+p {
+    font-size: 33px;
+    margin-right: 10px;
+    margin-left: 300px;
+    color: green;
+}
+
+footer {
+    font-size: medium;
+}
+
 #mainHeading {
     color: red;
 }
 
 .funParagraph {
     color:green;
+} 
+
+img {
+    float: left;
+    height: 400px;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
 }
